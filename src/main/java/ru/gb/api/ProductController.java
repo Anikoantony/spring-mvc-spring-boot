@@ -24,6 +24,7 @@ public class ProductController {
         //в model маппируем в тег products всех продуктов
         model.addAttribute("products", productRepository.showProducts());
         // возращаем в страницу продуктов
+
         return "products";
     }
 }
