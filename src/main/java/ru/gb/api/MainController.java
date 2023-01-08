@@ -7,6 +7,7 @@ import ru.gb.StudentRepository;
 import ru.gb.model.Student;
 
 @Controller
+//  http://localhost:8180/app/show_form
 public class MainController {
 
     private StudentRepository studentRepository;
