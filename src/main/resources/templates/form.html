@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Student</title>
+</head>
+<body>
+<h1>Simple form</h1>
+
+<!-- form method="get" action="http://localhost:8180/app/stud_add"-->
+
+<form method="get" th:action="@{'/stud_add'}">
+  <span>id</span>
+  <input name="id" type="number">
+  <span>name</span>
+  <input name="name" type="text">
+  <button type="submit">submit</button>
+</form>
+</body>
+</html>
