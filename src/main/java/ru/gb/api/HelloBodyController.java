@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 @RequestMapping("/v2")
+// http://localhost:8180/app/v2/hello
 public class HelloBodyController {
 
     //Client (Browser) <>
